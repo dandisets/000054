@@ -5,21 +5,8 @@
 access:
 - status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 1959122435577
-  numberOfFiles: 85
-  numberOfSubjects: 10
-  schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: House mouse
-    schemaKey: SpeciesType
-  variableMeasured: []
+  numberOfBytes: 0
+  numberOfFiles: 0
 citation: Plitt & Giocomo (2021) Experience Dependent Contextual Codes in the Hippocampus.
   Nat Neuro (2021). (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000054/draft
 description: Data included in Plitt & Giocomo (2021) Nature Neuroscience
