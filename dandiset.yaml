@@ -35,7 +35,7 @@ assetsSummary:
   - TwoPhotonSeries
   - BehavioralTimeSeries
   - ProcessingModule
-citation: Mark Plitt (2021) Plitt & Giocomo (2021) Experience Dependent Contextual
+citation: Plitt, Mark (2021) Plitt & Giocomo (2021) Experience Dependent Contextual
   Codes in the Hippocampus. Nat Neuro (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000054/draft
 contributor:
 - affiliation:
@@ -45,7 +45,7 @@ contributor:
   email: markplitt@gmail.com
   identifier: 0000-0002-7154-6292
   includeInCitation: true
-  name: Mark Plitt
+  name: Plitt, Mark
   roleName:
   - dcite:Author
   - dcite:ContactPerson
@@ -58,7 +58,8 @@ ethicsApproval: []
 id: DANDI:000054/draft
 identifier: DANDI:000054
 keywords: []
-license: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000054/versions/draft/assets/
 name: Plitt & Giocomo (2021) Experience Dependent Contextual Codes in the Hippocampus.
