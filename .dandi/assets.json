@@ -2120,7 +2120,9 @@
 "digest":
 {
 "dandi:dandi-etag":
-"382b747db25ef2ffa0e4f6595531bcc2-384"
+"382b747db25ef2ffa0e4f6595531bcc2-384",
+"dandi:sha2-256":
+"5c14ac59a50035bd96424e4390b2c22a1ab88846e3ae80e08375b79c34adf446"
 },
 "encodingFormat":
 "application/x-nwb",
@@ -2240,7 +2242,7 @@
 ]
 },
 "modified":
-"2021-08-05T18:52:37.588385+00:00",
+"2021-08-10T06:20:24.872482+00:00",
 "path":
 "sub-F2/sub-F2_ses-20190415T210000_behavior+ophys.nwb",
 "size":
@@ -14311,7 +14313,9 @@
 "digest":
 {
 "dandi:dandi-etag":
-"f6eee52934a52ff9920269c3081b9918-279"
+"f6eee52934a52ff9920269c3081b9918-279",
+"dandi:sha2-256":
+"84d98eb3325d59a4ab8528a086ec1acca98e2245863f65a5b49f5aa3db1bf57d"
 },
 "encodingFormat":
 "application/x-nwb",
@@ -14413,7 +14417,7 @@
 ]
 },
 "modified":
-"2021-08-05T18:52:39.957251+00:00",
+"2021-08-10T06:20:29.117878+00:00",
 "path":
 "sub-R6/sub-R6_ses-20200210T210000_obj-r0awni_ophys.nwb",
 "size":
