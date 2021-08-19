@@ -2,7 +2,9 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000054
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0014548
+  name: hippocampus
 access:
 - status: dandi:OpenAccess
 assetsSummary:
@@ -35,8 +37,9 @@ assetsSummary:
   - TwoPhotonSeries
   - BehavioralTimeSeries
   - ProcessingModule
-citation: Plitt, Mark (2021) Plitt & Giocomo (2021) Experience Dependent Contextual
-  Codes in the Hippocampus. Nat Neuro (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000054/draft
+citation: Plitt, Mark; Giocomo, Lisa M. (2021) Plitt & Giocomo (2021) Experience Dependent
+  Contextual Codes in the Hippocampus. Nat Neuro (Version draft) [Data set]. DANDI
+  archive. https://dandiarchive.org/dandiset/000054/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/03mtd9a03
@@ -53,6 +56,20 @@ contributor:
   - dcite:DataCurator
   schemaKey: Person
   url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Mark+H.+Plitt
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Stanford University
+    schemaKey: Affiliation
+  email: giocomo@gmail.com
+  identifier: 0000-0003-0416-2528
+  includeInCitation: true
+  name: Giocomo, Lisa M.
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  - dcite:Researcher
+  schemaKey: Person
+  url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Lisa+M.+Giocomo
 description: Data included in Plitt & Giocomo (2021) Nature Neuroscience
 ethicsApproval: []
 id: DANDI:000054/draft
@@ -66,10 +83,11 @@ name: Plitt & Giocomo (2021) Experience Dependent Contextual Codes in the Hippoc
   Nat Neuro
 protocol: []
 relatedResource:
-- identifier: https://doi.org/10.1038/s41593-021-00816-6
+- identifier: DOI:10.1038/s41593-021-00816-6
   name: Experience-dependent contextual codes in the hippocampus
-  relation: dcite:Cites
+  relation: dcite:IsDescribedBy
   repository: Nature Neuroscience volume 24
+  schemaKey: Resource
   url: https://www.nature.com/articles/s41593-021-00816-6
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
