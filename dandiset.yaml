@@ -38,8 +38,8 @@ assetsSummary:
   - BehavioralTimeSeries
   - ProcessingModule
 citation: Plitt, Mark; Giocomo, Lisa M. (2021) Plitt & Giocomo (2021) Experience Dependent
-  Contextual Codes in the Hippocampus. Nat Neuro (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000054/draft
+  Contextual Codes in the Hippocampus. Nat Neuro (Version 0.210819.1229) [Data set].
+  DANDI archive. https://doi.org/10.48324/dandi.000054/0.210819.1229
 contributor:
 - affiliation:
   - identifier: https://ror.org/03mtd9a03
@@ -70,22 +70,35 @@ contributor:
   - dcite:Researcher
   schemaKey: Person
   url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Lisa+M.+Giocomo
+datePublished: '2021-08-19T12:29:19.122029'
 description: Data included in Plitt & Giocomo (2021) Nature Neuroscience
+doi: 10.48324/dandi.000054/0.210819.1229
 ethicsApproval: []
-id: DANDI:000054/draft
+id: DANDI:000054/0.210819.1229
 identifier: DANDI:000054
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000054/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000054/0.210819.1229/assets.yaml
 name: Plitt & Giocomo (2021) Experience Dependent Contextual Codes in the Hippocampus.
   Nat Neuro
 protocol: []
+publishedBy:
+  endDate: '2021-08-19T12:29:19.122029'
+  id: urn:uuid:29182228-f44e-4a93-ad0b-603e82223720
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-08-19T12:29:19.122029'
+  wasAssociatedWith:
+  - id: urn:uuid:22ccdf14-be39-4fa1-bb91-aadfb442ea2d
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
-- identifier: DOI:10.1038/s41593-021-00816-6
-  name: Experience-dependent contextual codes in the hippocampus
-  relation: dcite:IsDescribedBy
+- name: Experience-dependent contextual codes in the hippocampus
+  relation: dcite:Cites
   repository: Nature Neuroscience volume 24
   schemaKey: Resource
   url: https://www.nature.com/articles/s41593-021-00816-6
@@ -93,6 +106,6 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000054/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000054/0.210819.1229
+version: 0.210819.1229
 wasGeneratedBy: []
