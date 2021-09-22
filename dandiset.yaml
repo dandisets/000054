@@ -70,7 +70,15 @@ contributor:
   - dcite:Researcher
   schemaKey: Person
   url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Lisa+M.+Giocomo
-description: Data included in Plitt & Giocomo (2021) Nature Neuroscience
+dateCreated: '2021-01-08T01:41:37.563000+00:00'
+description: "Data included in Plitt & Giocomo (2021) Nature Neuroscience\n\nData
+  includes temporally aligned virtual reality linear track data for head fixed mice
+  and two photon calcium imaging of hippocampal region CA1.\nAnimals were trained
+  to run in different virtual reality tracks that could be convincingly morphed into
+  each other. One group of mice, \"Rare morph\" animals (labeled 'RX' in dataset),
+  were largely only shown tracks at the extremes of this morph axis prior to imaging
+  sessions. A second group of mice, \"Frequent morph\" animals (labeled 'FX' in dataset),
+  were shown all of the tracks in equal probability. \n\n"
 ethicsApproval: []
 id: DANDI:000054/draft
 identifier: DANDI:000054
@@ -87,7 +95,6 @@ relatedResource:
   name: Experience-dependent contextual codes in the hippocampus
   relation: dcite:IsDescribedBy
   repository: Nature Neuroscience volume 24
-  schemaKey: Resource
   url: https://www.nature.com/articles/s41593-021-00816-6
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
