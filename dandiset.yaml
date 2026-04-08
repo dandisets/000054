@@ -27,9 +27,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 74264870968
-  numberOfFiles: 88
-  numberOfSubjects: 12
+  numberOfBytes: 117851284592
+  numberOfFiles: 130
+  numberOfSubjects: 16
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -41,9 +41,9 @@ assetsSummary:
   - OpticalChannel
   - PlaneSegmentation
   - ProcessingModule
-citation: Plitt, Mark; Giocomo, Lisa M. (2022) Plitt & Giocomo (2021) Experience Dependent
+citation: Plitt, Mark; Giocomo, Lisa M. (2026) Plitt & Giocomo (2021) Experience Dependent
   Contextual Codes in the Hippocampus. Nat Neuro (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000054/draft
+  Archive. https://dandiarchive.org/dandiset/000054/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/03mtd9a03
@@ -75,25 +75,26 @@ contributor:
   schemaKey: Person
   url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Lisa+M.+Giocomo
 dateCreated: '2021-01-08T01:41:37.563000+00:00'
-description: "Data included in Plitt & Giocomo (2021) Nature Neuroscience\n\nData
-  includes temporally aligned virtual reality linear track data for head fixed mice
-  and two photon calcium imaging of hippocampal region CA1.\nAnimals were trained
-  to run in different virtual reality tracks that could be convincingly morphed into
-  each other. One group of mice, \"Rare morph\" animals (labeled 'RX' in dataset),
-  were largely only shown tracks at the extremes of this morph axis prior to imaging
-  sessions. A second group of mice, \"Frequent morph\" animals (labeled 'FX' in dataset),
-  were shown all of the tracks in equal probability. \n\n"
+description: Data included in Plitt & Giocomo (2021) Nature Neuroscience (https://doi.org/10.1038/s41593-021-00816-6).
+  Data includes temporally aligned virtual reality linear track data and asosociated
+  two photon calcium imaging of hippocampal region CA1. Animals were trained to run
+  in different virtual reality tracks that could be convincingly morphed into each
+  other. One group of mice, "Rare morph" animals (labeled 'RX' in dataset), were largely
+  only shown tracks at the extremes of this morph axis during training but data from
+  the full morph axis during testing. A second group of mice, "Frequent morph" animals
+  (labeled 'FX' in dataset), were shown all of the tracks in equal probability during
+  all sessions. A third group of mice were shown in equal probability during all sessions,
+  but were trained to behaviorally group the tracks into two bins ("FDX" mice in dataset).
+  See https://github.com/GiocomoLab/PlittGiocomo_2021 for replication
 ethicsApproval: []
 id: DANDI:000054/draft
 identifier: DANDI:000054
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000054/versions/draft/assets/
 name: Plitt & Giocomo (2021) Experience Dependent Contextual Codes in the Hippocampus.
   Nat Neuro
-protocol: []
 relatedResource:
 - identifier: DOI:10.1038/s41593-021-00816-6
   name: Experience-dependent contextual codes in the hippocampus
@@ -101,10 +102,9 @@ relatedResource:
   repository: Nature Neuroscience volume 24
   schemaKey: Resource
   url: https://www.nature.com/articles/s41593-021-00816-6
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
-studyTarget: []
 url: https://dandiarchive.org/dandiset/000054/draft
 version: draft
 wasGeneratedBy: []
