@@ -27,8 +27,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 117851284592
-  numberOfFiles: 130
+  numberOfBytes: 112225095644
+  numberOfFiles: 122
   numberOfSubjects: 16
   schemaKey: AssetsSummary
   species:
