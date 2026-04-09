@@ -23,13 +23,13 @@ assetsSummary:
   measurementTechnique:
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 30688574228
-  numberOfFiles: 35
-  numberOfSubjects: 6
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 116556935980
+  numberOfFiles: 129
+  numberOfSubjects: 16
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -37,10 +37,10 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ImagingPlane
+  - ProcessingModule
   - BehavioralTimeSeries
   - OpticalChannel
   - PlaneSegmentation
-  - ProcessingModule
 citation: Plitt, Mark; Giocomo, Lisa M. (2026) Plitt & Giocomo (2021) Experience Dependent
   Contextual Codes in the Hippocampus. Nat Neuro (Version draft) [Data set]. DANDI
   Archive. https://dandiarchive.org/dandiset/000054/draft
