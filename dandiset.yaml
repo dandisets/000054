@@ -42,8 +42,8 @@ assetsSummary:
   - OpticalChannel
   - PlaneSegmentation
 citation: Plitt, Mark; Giocomo, Lisa M. (2026) Plitt & Giocomo (2021) Experience Dependent
-  Contextual Codes in the Hippocampus. Nat Neuro (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/000054/draft
+  Contextual Codes in the Hippocampus. Nat Neuro (Version 0.260415.1712) [Data set].
+  DANDI Archive. https://doi.org/10.48324/dandi.000054/0.260415.1712
 contributor:
 - affiliation:
   - identifier: https://ror.org/03mtd9a03
@@ -75,6 +75,7 @@ contributor:
   schemaKey: Person
   url: https://pubmed.ncbi.nlm.nih.gov/?cmd=search&term=Lisa+M.+Giocomo
 dateCreated: '2021-01-08T01:41:37.563000+00:00'
+datePublished: '2026-04-15T17:12:03.609657+00:00'
 description: Data included in Plitt & Giocomo (2021) Nature Neuroscience (https://doi.org/10.1038/s41593-021-00816-6).
   Data includes temporally aligned virtual reality linear track data and asosociated
   two photon calcium imaging of hippocampal region CA1. Animals were trained to run
@@ -86,15 +87,28 @@ description: Data included in Plitt & Giocomo (2021) Nature Neuroscience (https:
   all sessions. A third group of mice were shown in equal probability during all sessions,
   but were trained to behaviorally group the tracks into two bins ("FDX" mice in dataset).
   See https://github.com/GiocomoLab/PlittGiocomo_2021 for replication
+doi: 10.48324/dandi.000054/0.260415.1712
 ethicsApproval: []
-id: DANDI:000054/draft
+id: DANDI:000054/0.260415.1712
 identifier: DANDI:000054
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000054/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000054/0.260415.1712/assets.yaml
 name: Plitt & Giocomo (2021) Experience Dependent Contextual Codes in the Hippocampus.
   Nat Neuro
+publishedBy:
+  endDate: '2026-04-15T17:12:03.609657+00:00'
+  id: urn:uuid:9ada292b-b56f-4b83-90b0-cdb8f5c9a6c8
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-04-15T17:12:03.609657+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:8987db04-c052-405f-9a5b-1c9c72d72017
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: DOI:10.1038/s41593-021-00816-6
   name: Experience-dependent contextual codes in the hippocampus
@@ -105,6 +119,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
-url: https://dandiarchive.org/dandiset/000054/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000054/0.260415.1712
+version: 0.260415.1712
 wasGeneratedBy: []
